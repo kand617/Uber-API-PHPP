@@ -1,0 +1,29 @@
+{
+    "name": "apimatic/uberapi",
+    "type": "library",
+    "description": "The Uber API makes it easy to tap into the digital mesh that runs across cities. Make requests to our API endpoints and we'll give you everything you need to create new and magical experiences for your users. The possibilities are endless!",
+    "keywords": ["Uber API","API","SDK"],
+    "homepage": "https://apimatic.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeeshan @ APIMATIC",
+            "email": "zeeshan@apimatic.io",
+            "homepage": "https://github.com/apimatic",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "mashape/unirest-php": "~3.0.1",
+        "apimatic/jsonmapper": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UberAPILib\\": "src/"
+        }
+    }
+}
